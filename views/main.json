@@ -1,0 +1,73 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "username",
+			"control": "TextView",
+			"label": "Username",
+			"style": {
+				"color": "red",
+				"width": "fill-parent",
+				"height": "wrap-content",
+				"align": "left",
+				"valign": "middle"
+			}
+		},
+        {
+    		"name": "textUsername",
+			"control": "InputBox",
+			"style": {
+                "background-color": "yellow", 
+				"color": "red",
+				"width": "fill-parent",
+				"height": 30
+			}
+		},
+        {
+    		"name": "password",
+			"control": "TextView",
+			"label": "Password",
+			"style": {
+				"color": "red",
+				"width": "fill-parent",
+				"height": "wrap-content",
+				"align": "left",
+				"valign": "middle"
+			}
+		},
+        {
+    		"name": "textPassword",
+			"control": "InputBox",
+			"style": {
+                "background-color": "blue", 
+				"color": "red",
+				"width": "fill-parent",
+				"height": 30
+			}
+		},
+        {
+            "control": "Control",
+            "style": {
+                "width": "fill-parent",
+                "height": 15
+            }
+        },
+        {
+        	"name": "ok",
+			"control": "TextView",
+			"label": "OK",
+			"style": {
+                "background-color": "green",
+				"color": "black",
+				"width": 40,
+				"height": 40,
+				"align": "center",
+				"valign": "middle"
+			}
+		}
+	]
+}
